@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Edcloud - Register</title>
+    <title>Himatech - Register</title>
     <link rel = "icon" href = "img/logo.png" 
         type = "image/x-icon">
 
@@ -23,7 +23,12 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 	
 	<!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -101,52 +106,12 @@
 
 <body>
 
-    <div class="brand">Edcloud</div>
-    <div class="address-bar">Online Materials | Downloadable | Highly Secure</div>
+    <div class="brand">Himatech</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <a class="navbar-brand" href="index.php">Edcloud</a>
-            </div>
-            
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.php">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.php">About</a>
-                    </li>
-                    <li>
-                        <a href="blog.php">Downloads</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Chatbot</a>
-                    </li>
-                    <li>
-                        <a href="forum.html">Forum</a>
-                    </li>
-                    <li>
-                        <a href="contact.php">Contact</a>
-                    </li>
-                    
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <?php require_once 'nav.php'; ?>
+
     <div class="container">
         <div class="row">
             <div class="box">
@@ -192,7 +157,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Edcloud 2021</p>
+                    <p>Copyright &copy; Himatech 2016</p>
                 </div>
             </div>
         </div>
