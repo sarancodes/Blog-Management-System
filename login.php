@@ -76,8 +76,8 @@
 
 <body>
 
-    <div class="brand">Edcloud</div>
-    <div class="address-bar">Online Materials | Downloadable | Highly Secure</div>
+    <div class="brand">Blog</div>
+    <div class="address-bar">Share your thoughts</div>
 
     <!-- Navigation -->
     <?php require_once 'nav.php'; ?>
@@ -131,7 +131,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Edcloud 2021</p>
+                    <p>Copyright &copy; Saran 2022</p>
                 </div>
             </div>
         </div>
