@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 //Open a new connection to the MySQL server
-$mysqli = new mysqli('fdb29.awardspace.net', '3702819_chan', 'himatech123', '3702819_chan');
+$mysqli = new mysqli('fdb', '37028', '3', '3');
 
 
 //Output any connection error
